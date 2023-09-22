@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2023.2.2),
-    on Tue Sep 12 10:58:03 2023
+    on Wed Sep 20 14:48:19 2023
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -107,7 +107,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/Ethan/Documents/Stanford/Year 5/EDUCC464/PerceptualLearning/contrast/contrast_lastrun.py',
+        originPath='/Users/Ethan/Documents/Stanford/Year5/EDUC464/psychopy_experiments/PerceptualLearning/contrast/contrast_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -352,14 +352,12 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         opacity=1.0, contrast=1.0, blendmode='avg',
         texRes=512, interpolate=True, depth=0.0)
     resp = keyboard.Keyboard()
-    fixation = visual.DotStim(
-        win=win, name='fixation',
-        nDots=100, dotSize=2,
-        speed=0.1, dir=0.0, coherence=1.0,
-        fieldPos=(0.0, 0.0), fieldSize=.2, fieldAnchor='center', fieldShape='circle',
-        signalDots='same', noiseDots='direction',dotLife=3,
-        color='red', colorSpace='rgb', opacity=1,
-        depth=-2.0)
+    fixation_circle = visual.ShapeStim(
+        win=win, name='fixation_circle',
+        size=(0.2, 0.2), vertices='circle',
+        ori=0.0, pos=(0, 0), anchor='center',
+        lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='white',
+        opacity=None, depth=-3.0, interpolate=True)
     
     # --- Initialize components for Routine "updateLocation" ---
     
@@ -530,21 +528,24 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     # the Routine "instructions" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     
-    # --------Prepare to start Staircase "trials" --------
-    # set up handler to look after next chosen value etc
-    trials = data.StairHandler(startVal=1, extraInfo=expInfo,
-        stepSizes=.08, stepType='log',
-        nReversals=20, nTrials=5, 
-        nUp=1, nDown=3,
-        minVal=0, maxVal=1,
-        originPath=-1, name='trials')
+    # set up handler to look after randomisation of trials etc
+    conditions = data.importConditions('staircaseTemplate1.xlsx')
+    trials = data.MultiStairHandler(stairType='QUEST', name='trials',
+        nTrials=50.0,
+        conditions=conditions,
+        method='random',
+        originPath=-1)
     thisExp.addLoop(trials)  # add the loop to the experiment
-    level = thisTrial = 1  # initialise some vals
+    # initialise values for first condition
+    level = trials._nextIntensity  # initialise some vals
+    condition = trials.currentStaircase.condition
     
-    for thisTrial in trials:
+    for level, condition in trials:
         currentLoop = trials
         thisExp.timestampOnFlip(win, 'thisRow.t')
-        level = thisTrial
+        # abbreviate parameter names if possible (e.g. rgb=condition.rgb)
+        for paramName in condition:
+            globals()[paramName] = condition[paramName]
         
         # --- Prepare to start Routine "updateLocation" ---
         continueRoutine = True
@@ -619,9 +620,8 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         resp.keys = []
         resp.rt = []
         _resp_allKeys = []
-        fixation.refreshDots()
         # keep track of which components have finished
-        trialComponents = [grating, resp, fixation]
+        trialComponents = [grating, resp, fixation_circle]
         for thisComponent in trialComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -709,23 +709,23 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
                     # a response ends the routine
                     continueRoutine = False
             
-            # *fixation* updates
+            # *fixation_circle* updates
             
-            # if fixation is starting this frame...
-            if fixation.status == NOT_STARTED and tThisFlip >= 0.1-frameTolerance:
+            # if fixation_circle is starting this frame...
+            if fixation_circle.status == NOT_STARTED and tThisFlip >= 0.1-frameTolerance:
                 # keep track of start time/frame for later
-                fixation.frameNStart = frameN  # exact frame index
-                fixation.tStart = t  # local t and not account for scr refresh
-                fixation.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(fixation, 'tStartRefresh')  # time at next scr refresh
+                fixation_circle.frameNStart = frameN  # exact frame index
+                fixation_circle.tStart = t  # local t and not account for scr refresh
+                fixation_circle.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(fixation_circle, 'tStartRefresh')  # time at next scr refresh
                 # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'fixation.started')
+                thisExp.timestampOnFlip(win, 'fixation_circle.started')
                 # update status
-                fixation.status = STARTED
-                fixation.setAutoDraw(True)
+                fixation_circle.status = STARTED
+                fixation_circle.setAutoDraw(True)
             
-            # if fixation is active this frame...
-            if fixation.status == STARTED:
+            # if fixation_circle is active this frame...
+            if fixation_circle.status == STARTED:
                 # update params
                 pass
             
@@ -763,7 +763,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
                resp.corr = 1;  # correct non-response
             else:
                resp.corr = 0;  # failed to respond (incorrectly)
-        # store data for trials (StairHandler)
+        # store data for trials (MultiStairHandler)
         trials.addResponse(resp.corr, level)
         trials.addOtherData('resp.rt', resp.rt)
         # Run 'End Routine' code from GetLastLevel
@@ -775,24 +775,27 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         if thisSession is not None:
             # if running in a Session with a Liaison client, send data up to now
             thisSession.sendExperimentData()
-    # staircase completed
+    # all staircases completed
     
     
-    # --------Prepare to start Staircase "trials2" --------
-    # set up handler to look after next chosen value etc
-    trials2 = data.StairHandler(startVal=lastLevel, extraInfo=expInfo,
-        stepSizes=.08, stepType='log',
-        nReversals=5, nTrials=5, 
-        nUp=1, nDown=3,
-        minVal=0, maxVal=1,
-        originPath=-1, name='trials2')
+    # set up handler to look after randomisation of trials etc
+    conditions = data.importConditions('staircaseTemplate2.xlsx')
+    trials2 = data.MultiStairHandler(stairType='QUEST', name='trials2',
+        nTrials=50.0,
+        conditions=conditions,
+        method='random',
+        originPath=-1)
     thisExp.addLoop(trials2)  # add the loop to the experiment
-    level = thisTrials2 = lastLevel  # initialise some vals
+    # initialise values for first condition
+    level = trials2._nextIntensity  # initialise some vals
+    condition = trials2.currentStaircase.condition
     
-    for thisTrials2 in trials2:
+    for level, condition in trials2:
         currentLoop = trials2
         thisExp.timestampOnFlip(win, 'thisRow.t')
-        level = thisTrials2
+        # abbreviate parameter names if possible (e.g. rgb=condition.rgb)
+        for paramName in condition:
+            globals()[paramName] = condition[paramName]
         
         # --- Prepare to start Routine "updateLocation" ---
         continueRoutine = True
@@ -1011,7 +1014,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
                resp_2.corr = 1;  # correct non-response
             else:
                resp_2.corr = 0;  # failed to respond (incorrectly)
-        # store data for trials2 (StairHandler)
+        # store data for trials2 (MultiStairHandler)
         trials2.addResponse(resp_2.corr, level)
         trials2.addOtherData('resp_2.rt', resp_2.rt)
         # the Routine "trialnew" was not non-slip safe, so reset the non-slip timer
@@ -1021,7 +1024,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         if thisSession is not None:
             # if running in a Session with a Liaison client, send data up to now
             thisSession.sendExperimentData()
-    # staircase completed
+    # all staircases completed
     
     
     # mark experiment as finished
