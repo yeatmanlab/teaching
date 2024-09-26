@@ -1,4 +1,0 @@
-﻿Trigger.started,Trigger.stopped,key_resp_4.keys,key_resp_4.rt,key_resp_4.duration,mouse.x,mouse.y,mouse.leftButton,mouse.midButton,mouse.rightButton,Session,Subject,date,expName,psychopyVersion,OS,frameRate,complex_block.started,complex_block.stopped,key_resp.keys,key_resp.corr,key_resp.rt,key_resp.duration,complex_block_loop.thisRepN,complex_block_loop.thisTrialN,complex_block_loop.thisN,complex_block_loop.thisIndex,complex_block_loop.ran,trial,finger,markerPos,correctResp
-0,70.837,e,70.8,,-0.144973545,-0.348677249,0,0,0,1,Darth Vader,2024-09-24_15h33.01.115,Motor_Task,2023.2.2,MacIntel,30.3030303,,,,,,,,,,,,,,,
-,,,,,,,,,,1,Darth Vader,2024-09-24_15h33.01.115,Motor_Task,2023.2.2,MacIntel,30.3030303,70.852,87.967,3,0,17.098,,0,0,0,0,1,1,M,,2
-,,,,,,,,,,1,Darth Vader,2024-09-24_15h33.01.115,Motor_Task,2023.2.2,MacIntel,30.3030303,87.972,91.6,4,0,3.607,,0,1,1,1,1,2,R,,3

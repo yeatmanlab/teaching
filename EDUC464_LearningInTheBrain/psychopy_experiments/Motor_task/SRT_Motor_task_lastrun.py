@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2023.2.2),
-    on Tue Sep 12 11:17:44 2023
+    on Thu Sep 26 15:43:41 2024
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -111,7 +111,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/Ethan/Documents/Stanford/Year 5/EDUCC464/Motor_task/SRT_Motor_task_lastrun.py',
+        originPath='/Users/jamiel12/Documents/courses/EDUC_464_teaching/git/teaching/EDUC464_LearningInTheBrain/psychopy_experiments/Motor_task/SRT_Motor_task_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )

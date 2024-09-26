@@ -1,0 +1,455 @@
+2.4908 	ERROR 	Support for the `sounddevice` audio backend is not available this session. Please install `psychopy-sounddevice` and restart the session to enable support.
+2.4910 	ERROR 	Failed to load any of the audioLibs: ['sounddevice']. Falling back to PsychToolbox ('ptb') backend for sound. Be sure to add 'ptb' to preferences to avoid seeing this message again.
+2.6000 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice'] (in that order).
+9.2223 	INFO 	Loaded monitor calibration from ['2024_08_06 20:13']
+9.4876 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4888 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4900 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4918 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4935 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4941 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4952 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4969 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4972 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4975 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4987 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4999 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5009 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5021 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5030 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5043 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5054 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5057 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5062 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5079 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5082 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5096 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.5140 	DEBUG 	Upload of Texture Font fontname complete
+9.5225 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5241 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5256 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5258 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.5284 	DEBUG 	Upload of Texture Font fontname complete
+10.6164 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.6175 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f83122c5cd0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f83122c5c70>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f83122c5ac0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f832384f280>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.6178 	EXP 	window1: mouseVisible = True
+10.6178 	EXP 	window1: backgroundImage = ''
+10.6178 	EXP 	window1: backgroundFit = 'none'
+10.6220 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.6220 	EXP 	window1: recordFrameIntervals = False
+10.7057 	EXP 	window1: recordFrameIntervals = True
+11.4491 	EXP 	Screen (0) actual frame rate measured at 122.14Hz
+11.4491 	EXP 	window1: recordFrameIntervals = True
+11.4515 	EXP 	window1: mouseVisible = False
+17.4854 	INFO 	keyboard.Keyboard is using iohub backend.
+17.4854 	EXP 	Motor_Task: status = STARTED
+17.4860 	EXP 	window1: mouseVisible = True
+17.5274 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=2)
+17.5274 	INFO 	keyboard.Keyboard is using iohub backend.
+17.5275 	EXP 	window1: mouseVisible = True
+17.5276 	EXP 	window1: mouseVisible = True
+17.5941 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='right_hand_motor.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.4, 0.5]), texRes=512, units='norm', win=Window(...))
+17.5942 	EXP 	window1: mouseVisible = True
+17.6077 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+17.6078 	EXP 	window1: mouseVisible = True
+17.6166 	EXP 	Created index2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='key.png', interpolate=True, mask=None, maskParams=None, name='index2', opacity=1.0, ori=0.0, pos=array([-0.5, -0.1]), size=array([0.3, 0.4]), texRes=512, units='norm', win=Window(...))
+17.6168 	EXP 	window1: mouseVisible = True
+17.6244 	EXP 	Created middle2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='key.png', interpolate=True, mask=None, maskParams=None, name='middle2', opacity=1.0, ori=0.0, pos=array([-0.15,  0.1 ]), size=array([0.3, 0.4]), texRes=512, units='norm', win=Window(...))
+17.6245 	EXP 	window1: mouseVisible = True
+17.6321 	EXP 	Created ring2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='key.png', interpolate=True, mask=None, maskParams=None, name='ring2', opacity=1.0, ori=0.0, pos=array([ 0.2 , -0.05]), size=array([0.3, 0.4]), texRes=512, units='norm', win=Window(...))
+17.6322 	EXP 	window1: mouseVisible = True
+17.6396 	EXP 	Created little2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='key.png', interpolate=True, mask=None, maskParams=None, name='little2', opacity=1.0, ori=0.0, pos=array([ 0.55, -0.25]), size=array([0.3, 0.4]), texRes=512, units='norm', win=Window(...))
+17.6397 	EXP 	window1: mouseVisible = True
+17.6492 	EXP 	Created marker = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, image='marker.png', interpolate=True, mask=None, maskParams=None, name='marker', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2 , 0.25]), texRes=512, units='norm', win=Window(...))
+17.6492 	INFO 	keyboard.Keyboard is using iohub backend.
+17.6493 	EXP 	window1: mouseVisible = True
+17.6573 	EXP 	Created index2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='key.png', interpolate=True, mask=None, maskParams=None, name='index2', opacity=1.0, ori=0.0, pos=array([-0.5, -0.1]), size=array([0.3, 0.4]), texRes=512, units='norm', win=Window(...))
+17.6574 	EXP 	window1: mouseVisible = True
+17.6649 	EXP 	Created middle2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='key.png', interpolate=True, mask=None, maskParams=None, name='middle2', opacity=1.0, ori=0.0, pos=array([-0.15,  0.1 ]), size=array([0.3, 0.4]), texRes=512, units='norm', win=Window(...))
+17.6650 	EXP 	window1: mouseVisible = True
+17.6725 	EXP 	Created ring2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='key.png', interpolate=True, mask=None, maskParams=None, name='ring2', opacity=1.0, ori=0.0, pos=array([ 0.2 , -0.05]), size=array([0.3, 0.4]), texRes=512, units='norm', win=Window(...))
+17.6726 	EXP 	window1: mouseVisible = True
+17.6800 	EXP 	Created little2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='key.png', interpolate=True, mask=None, maskParams=None, name='little2', opacity=1.0, ori=0.0, pos=array([ 0.55, -0.25]), size=array([0.3, 0.4]), texRes=512, units='norm', win=Window(...))
+17.6801 	EXP 	window1: mouseVisible = True
+17.6862 	EXP 	Created marker = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, image='marker.png', interpolate=True, mask=None, maskParams=None, name='marker', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2 , 0.25]), texRes=512, units='norm', win=Window(...))
+17.6862 	INFO 	keyboard.Keyboard is using iohub backend.
+17.6863 	EXP 	window1: mouseVisible = True
+17.6916 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='THE END', units='norm', win=Window(...), wrapWidth=1)
+0.0366 	INFO 	Keyboard events cleared
+0.0359 	WARNING 	t of last frame was 24.26ms (=1/41)
+0.0359 	EXP 	text_2: autoDraw = True
+0.0359 	EXP 	image: autoDraw = True
+0.0359 	EXP 	text_4: autoDraw = True
+3.0248 	WARNING 	t of last frame was 26.54ms (=1/37)
+12.2662 	WARNING 	t of last frame was 26.00ms (=1/38)
+12.3025 	WARNING 	t of last frame was 36.25ms (=1/27)
+22.3248 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+37.4617 	DATA 	Mouse: Left button down, pos=(542,528)
+37.4802 	DEBUG 	Read excel file with openpyxl: complex_loop.xlsx
+37.4813 	EXP 	Imported complex_loop.xlsx as conditions, 10 conditions, 4 params
+37.4824 	EXP 	Created sequence: sequential, trialTypes=10, nReps=20, seed=None
+37.4827 	EXP 	New trial (rep=0, index=0): {'trial': 1, 'finger': 'M', 'markerPos': [-0.15, 0.1], 'correctResp': 2.0}
+37.4834 	INFO 	Keyboard events cleared
+37.4894 	EXP 	text_2: autoDraw = False
+37.4894 	EXP 	image: autoDraw = False
+37.4894 	EXP 	text_4: autoDraw = False
+37.4894 	EXP 	index2: autoDraw = True
+37.4894 	EXP 	middle2: autoDraw = True
+37.4894 	EXP 	ring2: autoDraw = True
+37.4894 	EXP 	little2: autoDraw = True
+37.5669 	DATA 	Mouse:  Left button up, pos=(542,528)
+37.6154 	EXP 	marker: autoDraw = True
+40.9270 	EXP 	New trial (rep=0, index=1): {'trial': 2, 'finger': 'R', 'markerPos': [0.2, -0.05], 'correctResp': 3.0}
+40.9280 	INFO 	Keyboard events cleared
+40.9378 	DATA 	Keypress: 2
+40.9437 	EXP 	index2: autoDraw = False
+40.9437 	EXP 	middle2: autoDraw = False
+40.9437 	EXP 	ring2: autoDraw = False
+40.9437 	EXP 	little2: autoDraw = False
+40.9437 	EXP 	marker: autoDraw = False
+40.9437 	EXP 	index2: autoDraw = True
+40.9437 	EXP 	middle2: autoDraw = True
+40.9437 	EXP 	ring2: autoDraw = True
+40.9437 	EXP 	little2: autoDraw = True
+41.0661 	EXP 	marker: autoDraw = True
+41.7856 	EXP 	New trial (rep=0, index=2): {'trial': 3, 'finger': 'M', 'markerPos': [-0.15, 0.1], 'correctResp': 2.0}
+41.7865 	INFO 	Keyboard events cleared
+41.7909 	DATA 	Keypress: 3
+41.7960 	EXP 	index2: autoDraw = False
+41.7960 	EXP 	middle2: autoDraw = False
+41.7960 	EXP 	ring2: autoDraw = False
+41.7960 	EXP 	little2: autoDraw = False
+41.7960 	EXP 	marker: autoDraw = False
+41.7960 	EXP 	index2: autoDraw = True
+41.7960 	EXP 	middle2: autoDraw = True
+41.7960 	EXP 	ring2: autoDraw = True
+41.7960 	EXP 	little2: autoDraw = True
+41.9327 	EXP 	marker: autoDraw = True
+42.6948 	EXP 	New trial (rep=0, index=3): {'trial': 4, 'finger': 'R', 'markerPos': [0.2, -0.05], 'correctResp': 3.0}
+42.6957 	INFO 	Keyboard events cleared
+42.6999 	DATA 	Keypress: 2
+42.7052 	EXP 	index2: autoDraw = False
+42.7052 	EXP 	middle2: autoDraw = False
+42.7052 	EXP 	ring2: autoDraw = False
+42.7052 	EXP 	little2: autoDraw = False
+42.7052 	EXP 	marker: autoDraw = False
+42.7052 	EXP 	index2: autoDraw = True
+42.7052 	EXP 	middle2: autoDraw = True
+42.7052 	EXP 	ring2: autoDraw = True
+42.7052 	EXP 	little2: autoDraw = True
+42.8418 	EXP 	marker: autoDraw = True
+43.2350 	EXP 	New trial (rep=0, index=4): {'trial': 5, 'finger': 'I', 'markerPos': [-0.5, -0.1], 'correctResp': 1.0}
+43.2359 	INFO 	Keyboard events cleared
+43.2400 	DATA 	Keypress: 3
+43.2455 	EXP 	index2: autoDraw = False
+43.2455 	EXP 	middle2: autoDraw = False
+43.2455 	EXP 	ring2: autoDraw = False
+43.2455 	EXP 	little2: autoDraw = False
+43.2455 	EXP 	marker: autoDraw = False
+43.2455 	EXP 	index2: autoDraw = True
+43.2455 	EXP 	middle2: autoDraw = True
+43.2455 	EXP 	ring2: autoDraw = True
+43.2455 	EXP 	little2: autoDraw = True
+43.3824 	EXP 	marker: autoDraw = True
+44.0687 	EXP 	New trial (rep=0, index=5): {'trial': 6, 'finger': 'I', 'markerPos': [-0.5, -0.1], 'correctResp': 1.0}
+44.0696 	INFO 	Keyboard events cleared
+44.0738 	DATA 	Keypress: 1
+44.0790 	EXP 	index2: autoDraw = False
+44.0790 	EXP 	middle2: autoDraw = False
+44.0790 	EXP 	ring2: autoDraw = False
+44.0790 	EXP 	little2: autoDraw = False
+44.0790 	EXP 	marker: autoDraw = False
+44.0790 	EXP 	index2: autoDraw = True
+44.0790 	EXP 	middle2: autoDraw = True
+44.0790 	EXP 	ring2: autoDraw = True
+44.0790 	EXP 	little2: autoDraw = True
+44.2166 	EXP 	marker: autoDraw = True
+44.6855 	EXP 	New trial (rep=0, index=6): {'trial': 7, 'finger': 'R', 'markerPos': [0.2, -0.05], 'correctResp': 3.0}
+44.6864 	INFO 	Keyboard events cleared
+44.7017 	DATA 	Keypress: 1
+44.7073 	EXP 	index2: autoDraw = False
+44.7073 	EXP 	middle2: autoDraw = False
+44.7073 	EXP 	ring2: autoDraw = False
+44.7073 	EXP 	little2: autoDraw = False
+44.7073 	EXP 	marker: autoDraw = False
+44.7073 	EXP 	index2: autoDraw = True
+44.7073 	EXP 	middle2: autoDraw = True
+44.7073 	EXP 	ring2: autoDraw = True
+44.7073 	EXP 	little2: autoDraw = True
+44.8333 	EXP 	marker: autoDraw = True
+45.5446 	EXP 	New trial (rep=0, index=7): {'trial': 8, 'finger': 'M', 'markerPos': [-0.15, 0.1], 'correctResp': 2.0}
+45.5455 	INFO 	Keyboard events cleared
+45.5499 	DATA 	Keypress: 3
+45.5550 	EXP 	index2: autoDraw = False
+45.5550 	EXP 	middle2: autoDraw = False
+45.5550 	EXP 	ring2: autoDraw = False
+45.5550 	EXP 	little2: autoDraw = False
+45.5550 	EXP 	marker: autoDraw = False
+45.5550 	EXP 	index2: autoDraw = True
+45.5550 	EXP 	middle2: autoDraw = True
+45.5550 	EXP 	ring2: autoDraw = True
+45.5550 	EXP 	little2: autoDraw = True
+45.6921 	EXP 	marker: autoDraw = True
+46.2798 	DATA 	Keypress: 2
+46.2874 	EXP 	New trial (rep=0, index=8): {'trial': 9, 'finger': 'L', 'markerPos': [0.55, -0.25], 'correctResp': 4.0}
+46.2885 	INFO 	Keyboard events cleared
+46.2956 	EXP 	index2: autoDraw = False
+46.2956 	EXP 	middle2: autoDraw = False
+46.2956 	EXP 	ring2: autoDraw = False
+46.2956 	EXP 	little2: autoDraw = False
+46.2956 	EXP 	marker: autoDraw = False
+46.2956 	EXP 	index2: autoDraw = True
+46.2956 	EXP 	middle2: autoDraw = True
+46.2956 	EXP 	ring2: autoDraw = True
+46.2956 	EXP 	little2: autoDraw = True
+46.4342 	EXP 	marker: autoDraw = True
+46.9378 	DATA 	Keypress: 5
+48.0711 	DATA 	Keypress: 4
+48.0787 	EXP 	New trial (rep=0, index=9): {'trial': 10, 'finger': 'I', 'markerPos': [-0.5, -0.1], 'correctResp': 1.0}
+48.0796 	INFO 	Keyboard events cleared
+48.0864 	EXP 	index2: autoDraw = False
+48.0864 	EXP 	middle2: autoDraw = False
+48.0864 	EXP 	ring2: autoDraw = False
+48.0864 	EXP 	little2: autoDraw = False
+48.0864 	EXP 	marker: autoDraw = False
+48.0864 	EXP 	index2: autoDraw = True
+48.0864 	EXP 	middle2: autoDraw = True
+48.0864 	EXP 	ring2: autoDraw = True
+48.0864 	EXP 	little2: autoDraw = True
+48.2252 	EXP 	marker: autoDraw = True
+49.7849 	EXP 	New trial (rep=1, index=0): {'trial': 1, 'finger': 'M', 'markerPos': [-0.15, 0.1], 'correctResp': 2.0}
+49.7858 	INFO 	Keyboard events cleared
+49.7900 	DATA 	Keypress: 1
+49.7959 	EXP 	index2: autoDraw = False
+49.7959 	EXP 	middle2: autoDraw = False
+49.7959 	EXP 	ring2: autoDraw = False
+49.7959 	EXP 	little2: autoDraw = False
+49.7959 	EXP 	marker: autoDraw = False
+49.7959 	EXP 	index2: autoDraw = True
+49.7959 	EXP 	middle2: autoDraw = True
+49.7959 	EXP 	ring2: autoDraw = True
+49.7959 	EXP 	little2: autoDraw = True
+49.9333 	EXP 	marker: autoDraw = True
+50.4453 	EXP 	New trial (rep=1, index=1): {'trial': 2, 'finger': 'R', 'markerPos': [0.2, -0.05], 'correctResp': 3.0}
+50.4464 	INFO 	Keyboard events cleared
+50.4507 	DATA 	Keypress: 2
+50.4559 	EXP 	index2: autoDraw = False
+50.4559 	EXP 	middle2: autoDraw = False
+50.4559 	EXP 	ring2: autoDraw = False
+50.4559 	EXP 	little2: autoDraw = False
+50.4559 	EXP 	marker: autoDraw = False
+50.4559 	EXP 	index2: autoDraw = True
+50.4559 	EXP 	middle2: autoDraw = True
+50.4559 	EXP 	ring2: autoDraw = True
+50.4559 	EXP 	little2: autoDraw = True
+50.5924 	EXP 	marker: autoDraw = True
+50.9381 	DATA 	Keypress: 3
+50.9618 	EXP 	New trial (rep=1, index=2): {'trial': 3, 'finger': 'M', 'markerPos': [-0.15, 0.1], 'correctResp': 2.0}
+50.9629 	INFO 	Keyboard events cleared
+50.9763 	EXP 	index2: autoDraw = False
+50.9763 	EXP 	middle2: autoDraw = False
+50.9763 	EXP 	ring2: autoDraw = False
+50.9763 	EXP 	little2: autoDraw = False
+50.9763 	EXP 	marker: autoDraw = False
+50.9763 	EXP 	index2: autoDraw = True
+50.9763 	EXP 	middle2: autoDraw = True
+50.9763 	EXP 	ring2: autoDraw = True
+50.9763 	EXP 	little2: autoDraw = True
+51.1089 	EXP 	marker: autoDraw = True
+51.5445 	EXP 	New trial (rep=1, index=3): {'trial': 4, 'finger': 'R', 'markerPos': [0.2, -0.05], 'correctResp': 3.0}
+51.5455 	INFO 	Keyboard events cleared
+51.5499 	DATA 	Keypress: 2
+51.5552 	EXP 	index2: autoDraw = False
+51.5552 	EXP 	middle2: autoDraw = False
+51.5552 	EXP 	ring2: autoDraw = False
+51.5552 	EXP 	little2: autoDraw = False
+51.5552 	EXP 	marker: autoDraw = False
+51.5552 	EXP 	index2: autoDraw = True
+51.5552 	EXP 	middle2: autoDraw = True
+51.5552 	EXP 	ring2: autoDraw = True
+51.5552 	EXP 	little2: autoDraw = True
+51.6923 	EXP 	marker: autoDraw = True
+51.9794 	DATA 	Keypress: 3
+51.9868 	EXP 	New trial (rep=1, index=4): {'trial': 5, 'finger': 'I', 'markerPos': [-0.5, -0.1], 'correctResp': 1.0}
+51.9877 	INFO 	Keyboard events cleared
+51.9954 	EXP 	index2: autoDraw = False
+51.9954 	EXP 	middle2: autoDraw = False
+51.9954 	EXP 	ring2: autoDraw = False
+51.9954 	EXP 	little2: autoDraw = False
+51.9954 	EXP 	marker: autoDraw = False
+51.9954 	EXP 	index2: autoDraw = True
+51.9954 	EXP 	middle2: autoDraw = True
+51.9954 	EXP 	ring2: autoDraw = True
+51.9954 	EXP 	little2: autoDraw = True
+52.1326 	EXP 	marker: autoDraw = True
+52.7014 	EXP 	New trial (rep=1, index=5): {'trial': 6, 'finger': 'I', 'markerPos': [-0.5, -0.1], 'correctResp': 1.0}
+52.7023 	INFO 	Keyboard events cleared
+52.7070 	DATA 	Keypress: 1
+52.7127 	EXP 	index2: autoDraw = False
+52.7127 	EXP 	middle2: autoDraw = False
+52.7127 	EXP 	ring2: autoDraw = False
+52.7127 	EXP 	little2: autoDraw = False
+52.7127 	EXP 	marker: autoDraw = False
+52.7127 	EXP 	index2: autoDraw = True
+52.7127 	EXP 	middle2: autoDraw = True
+52.7127 	EXP 	ring2: autoDraw = True
+52.7127 	EXP 	little2: autoDraw = True
+52.8500 	EXP 	marker: autoDraw = True
+53.4111 	EXP 	New trial (rep=1, index=6): {'trial': 7, 'finger': 'R', 'markerPos': [0.2, -0.05], 'correctResp': 3.0}
+53.4121 	INFO 	Keyboard events cleared
+53.4155 	DATA 	Keypress: 1
+53.4225 	EXP 	index2: autoDraw = False
+53.4225 	EXP 	middle2: autoDraw = False
+53.4225 	EXP 	ring2: autoDraw = False
+53.4225 	EXP 	little2: autoDraw = False
+53.4225 	EXP 	marker: autoDraw = False
+53.4225 	EXP 	index2: autoDraw = True
+53.4225 	EXP 	middle2: autoDraw = True
+53.4225 	EXP 	ring2: autoDraw = True
+53.4225 	EXP 	little2: autoDraw = True
+53.5766 	EXP 	marker: autoDraw = True
+55.6369 	DATA 	Keypress: 3
+55.6449 	EXP 	New trial (rep=1, index=7): {'trial': 8, 'finger': 'M', 'markerPos': [-0.15, 0.1], 'correctResp': 2.0}
+55.6458 	INFO 	Keyboard events cleared
+55.6527 	EXP 	index2: autoDraw = False
+55.6527 	EXP 	middle2: autoDraw = False
+55.6527 	EXP 	ring2: autoDraw = False
+55.6527 	EXP 	little2: autoDraw = False
+55.6527 	EXP 	marker: autoDraw = False
+55.6527 	EXP 	index2: autoDraw = True
+55.6527 	EXP 	middle2: autoDraw = True
+55.6527 	EXP 	ring2: autoDraw = True
+55.6527 	EXP 	little2: autoDraw = True
+55.7923 	EXP 	marker: autoDraw = True
+56.9374 	DATA 	Keypress: 2
+56.9453 	EXP 	New trial (rep=1, index=8): {'trial': 9, 'finger': 'L', 'markerPos': [0.55, -0.25], 'correctResp': 4.0}
+56.9462 	INFO 	Keyboard events cleared
+56.9529 	EXP 	index2: autoDraw = False
+56.9529 	EXP 	middle2: autoDraw = False
+56.9529 	EXP 	ring2: autoDraw = False
+56.9529 	EXP 	little2: autoDraw = False
+56.9529 	EXP 	marker: autoDraw = False
+56.9529 	EXP 	index2: autoDraw = True
+56.9529 	EXP 	middle2: autoDraw = True
+56.9529 	EXP 	ring2: autoDraw = True
+56.9529 	EXP 	little2: autoDraw = True
+57.0923 	EXP 	marker: autoDraw = True
+57.6276 	EXP 	New trial (rep=1, index=9): {'trial': 10, 'finger': 'I', 'markerPos': [-0.5, -0.1], 'correctResp': 1.0}
+57.6285 	INFO 	Keyboard events cleared
+57.6328 	DATA 	Keypress: 4
+57.6381 	EXP 	index2: autoDraw = False
+57.6381 	EXP 	middle2: autoDraw = False
+57.6381 	EXP 	ring2: autoDraw = False
+57.6381 	EXP 	little2: autoDraw = False
+57.6381 	EXP 	marker: autoDraw = False
+57.6381 	EXP 	index2: autoDraw = True
+57.6381 	EXP 	middle2: autoDraw = True
+57.6381 	EXP 	ring2: autoDraw = True
+57.6381 	EXP 	little2: autoDraw = True
+57.7672 	EXP 	marker: autoDraw = True
+59.3955 	EXP 	New trial (rep=2, index=0): {'trial': 1, 'finger': 'M', 'markerPos': [-0.15, 0.1], 'correctResp': 2.0}
+59.3965 	INFO 	Keyboard events cleared
+59.4007 	DATA 	Keypress: 1
+59.4058 	EXP 	index2: autoDraw = False
+59.4058 	EXP 	middle2: autoDraw = False
+59.4058 	EXP 	ring2: autoDraw = False
+59.4058 	EXP 	little2: autoDraw = False
+59.4058 	EXP 	marker: autoDraw = False
+59.4058 	EXP 	index2: autoDraw = True
+59.4058 	EXP 	middle2: autoDraw = True
+59.4058 	EXP 	ring2: autoDraw = True
+59.4058 	EXP 	little2: autoDraw = True
+59.5429 	EXP 	marker: autoDraw = True
+60.0021 	EXP 	New trial (rep=2, index=1): {'trial': 2, 'finger': 'R', 'markerPos': [0.2, -0.05], 'correctResp': 3.0}
+60.0031 	INFO 	Keyboard events cleared
+60.0074 	DATA 	Keypress: 2
+60.0130 	EXP 	index2: autoDraw = False
+60.0130 	EXP 	middle2: autoDraw = False
+60.0130 	EXP 	ring2: autoDraw = False
+60.0130 	EXP 	little2: autoDraw = False
+60.0130 	EXP 	marker: autoDraw = False
+60.0130 	EXP 	index2: autoDraw = True
+60.0130 	EXP 	middle2: autoDraw = True
+60.0130 	EXP 	ring2: autoDraw = True
+60.0130 	EXP 	little2: autoDraw = True
+60.1501 	EXP 	marker: autoDraw = True
+60.5951 	EXP 	New trial (rep=2, index=2): {'trial': 3, 'finger': 'M', 'markerPos': [-0.15, 0.1], 'correctResp': 2.0}
+60.5960 	INFO 	Keyboard events cleared
+60.6004 	DATA 	Keypress: 3
+60.6056 	EXP 	index2: autoDraw = False
+60.6056 	EXP 	middle2: autoDraw = False
+60.6056 	EXP 	ring2: autoDraw = False
+60.6056 	EXP 	little2: autoDraw = False
+60.6056 	EXP 	marker: autoDraw = False
+60.6056 	EXP 	index2: autoDraw = True
+60.6056 	EXP 	middle2: autoDraw = True
+60.6056 	EXP 	ring2: autoDraw = True
+60.6056 	EXP 	little2: autoDraw = True
+60.7419 	EXP 	marker: autoDraw = True
+61.2849 	EXP 	New trial (rep=2, index=3): {'trial': 4, 'finger': 'R', 'markerPos': [0.2, -0.05], 'correctResp': 3.0}
+61.2857 	INFO 	Keyboard events cleared
+61.2897 	DATA 	Keypress: 2
+61.2954 	EXP 	index2: autoDraw = False
+61.2954 	EXP 	middle2: autoDraw = False
+61.2954 	EXP 	ring2: autoDraw = False
+61.2954 	EXP 	little2: autoDraw = False
+61.2954 	EXP 	marker: autoDraw = False
+61.2954 	EXP 	index2: autoDraw = True
+61.2954 	EXP 	middle2: autoDraw = True
+61.2954 	EXP 	ring2: autoDraw = True
+61.2954 	EXP 	little2: autoDraw = True
+61.4335 	EXP 	marker: autoDraw = True
+61.8686 	EXP 	New trial (rep=2, index=4): {'trial': 5, 'finger': 'I', 'markerPos': [-0.5, -0.1], 'correctResp': 1.0}
+61.8696 	INFO 	Keyboard events cleared
+61.8738 	DATA 	Keypress: 3
+61.8795 	EXP 	index2: autoDraw = False
+61.8795 	EXP 	middle2: autoDraw = False
+61.8795 	EXP 	ring2: autoDraw = False
+61.8795 	EXP 	little2: autoDraw = False
+61.8795 	EXP 	marker: autoDraw = False
+61.8795 	EXP 	index2: autoDraw = True
+61.8795 	EXP 	middle2: autoDraw = True
+61.8795 	EXP 	ring2: autoDraw = True
+61.8795 	EXP 	little2: autoDraw = True
+62.0161 	EXP 	marker: autoDraw = True
+62.4190 	EXP 	New trial (rep=2, index=5): {'trial': 6, 'finger': 'I', 'markerPos': [-0.5, -0.1], 'correctResp': 1.0}
+62.4199 	INFO 	Keyboard events cleared
+62.4238 	DATA 	Keypress: 1
+62.4295 	EXP 	index2: autoDraw = False
+62.4295 	EXP 	middle2: autoDraw = False
+62.4295 	EXP 	ring2: autoDraw = False
+62.4295 	EXP 	little2: autoDraw = False
+62.4295 	EXP 	marker: autoDraw = False
+62.4295 	EXP 	index2: autoDraw = True
+62.4295 	EXP 	middle2: autoDraw = True
+62.4295 	EXP 	ring2: autoDraw = True
+62.4295 	EXP 	little2: autoDraw = True
+62.5669 	EXP 	marker: autoDraw = True
+63.0612 	EXP 	New trial (rep=2, index=6): {'trial': 7, 'finger': 'R', 'markerPos': [0.2, -0.05], 'correctResp': 3.0}
+63.0621 	INFO 	Keyboard events cleared
+63.0664 	DATA 	Keypress: 1
+63.0716 	EXP 	index2: autoDraw = False
+63.0716 	EXP 	middle2: autoDraw = False
+63.0716 	EXP 	ring2: autoDraw = False
+63.0716 	EXP 	little2: autoDraw = False
+63.0716 	EXP 	marker: autoDraw = False
+63.0716 	EXP 	index2: autoDraw = True
+63.0716 	EXP 	middle2: autoDraw = True
+63.0716 	EXP 	ring2: autoDraw = True
+63.0716 	EXP 	little2: autoDraw = True
+63.2087 	EXP 	marker: autoDraw = True
+75.8353 	DATA 	Keypress: escape
+75.8942 	EXP 	Motor_Task: status = STOPPED
+75.8990 	EXP 	index2: autoDraw = False
+75.8990 	EXP 	middle2: autoDraw = False
+75.8990 	EXP 	ring2: autoDraw = False
+75.8990 	EXP 	little2: autoDraw = False
+75.8990 	EXP 	marker: autoDraw = False
+75.8990 	EXP 	Motor_Task: status = STOPPED
+75.9111 	INFO 	saved data to 'data/data/JM_Motor_Task_2024-09-25_15h52.19.873.csv'
+75.9133 	INFO 	saved data to data/data/JM_Motor_Task_2024-09-25_15h52.19.873.psydat
+75.9408 	EXP 	window1: mouseVisible = True
+76.4897 	DEBUG 	Saving data for Motor_Task ExperimentHandler
